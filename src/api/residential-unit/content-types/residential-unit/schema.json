@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "residential_units",
+  "info": {
+    "singularName": "residential-unit",
+    "pluralName": "residential-units",
+    "displayName": "Residential Unit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tower_number": {
+      "type": "string"
+    },
+    "floor_number": {
+      "type": "string"
+    },
+    "residents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::resident.resident"
+    },
+    "residential_unit_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::residential-unit-type.residential-unit-type"
+    }
+  }
+}

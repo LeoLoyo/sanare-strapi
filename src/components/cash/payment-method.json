@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cash_payment_methods",
+  "info": {
+    "displayName": "PaymentMethod"
+  },
+  "options": {},
+  "attributes": {
+    "method": {
+      "type": "enumeration",
+      "enum": [
+        "cash",
+        "bank"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_dni_value_dnis",
+  "info": {
+    "displayName": "DNI"
+  },
+  "options": {},
+  "attributes": {
+    "dnitest": {
+      "type": "string"
+    }
+  }
+}

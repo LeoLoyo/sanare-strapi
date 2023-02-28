@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "residents",
+  "info": {
+    "singularName": "resident",
+    "pluralName": "residents",
+    "displayName": "Resident",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "last_name": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "residential_unit": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::residential-unit.residential-unit"
+    }
+  }
+}

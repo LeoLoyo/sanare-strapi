@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "monthly_payments",
+  "info": {
+    "singularName": "monthly-payment",
+    "pluralName": "monthly-payments",
+    "displayName": "Monthly Payment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date_limit": {
+      "type": "date"
+    },
+    "date_start": {
+      "type": "date"
+    },
+    "date_end": {
+      "type": "date"
+    },
+    "amount": {
+      "type": "float"
+    }
+  }
+}
